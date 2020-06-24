@@ -1,0 +1,30 @@
+
+table {
+    background: white;
+    color: black;
+    width: 80%;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr {
+    width: 80%;
+}
+
+td, th {
+    border: 1px solid #aaa;
+    text-align: left;
+    padding: 5px;
+    color: black;
+}
+
+th {
+    background: #45484d;
+    background: -moz-linear-gradient(top,  #45484d 0%, #000000 100%);
+    background: -webkit-linear-gradient(top,  #45484d 0%,#000000 100%);
+    background: linear-gradient(to bottom,  #45484d 0%,#000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 );
+    color: white;    
+}
